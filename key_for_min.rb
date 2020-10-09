@@ -7,7 +7,7 @@ low_value=nil
 hash.each do |key,value|
   if low_value==nil || value < low_value
     low_value = value
-    loew_key = key
+    low_key = key
   end
  end
  low_key
